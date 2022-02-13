@@ -1,0 +1,109 @@
+footer {
+	background: #000;
+	color: #fff;
+	padding: 4% 8vw;
+}
+footer hr {
+	color: gray;
+}
+footer h4 {
+	color: gray;
+}
+#about {
+	width: 90vw;
+	display: flex;
+}
+#about div {
+	width: 20vw;
+}
+.downlogo {
+	text-align: center;
+}
+.downlogo img {
+	height: 4rem;
+	border: 1px solid #fff;
+	border-radius: 15px;
+	margin: 1.5rem 0;
+}
+.flexed_cities {
+	display: flex;
+	flex-direction: row;
+}
+.row{
+	width: 25%;
+}
+.flexed_cities a:hover {
+	color: gray;
+}
+.flexed_cities div {
+	display: block;
+	margin: 0;
+	margin: 12px 0;
+	text-transform: capitalize;
+	line-height: 1.2;
+	font-size: 17px;
+}
+#logos {
+	padding-top: 2%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#logos img {
+	width: auto;
+	height: 100%;
+}
+#logos p {
+	font-size: 20px;
+}
+#sociallogos {
+	display: flex;
+	width: 15vw;
+	align-items: center;
+	justify-content: space-between;
+}
+#sociallogos svg {
+	font-size: 30px;
+	margin-top: 1rem;
+	margin-right: 0.5rem;
+}
+#sociallogos svg:hover {
+	cursor: pointer;
+}
+#logos img:hover {
+	filter: drop-shadow(0px 0px 5px #777);
+}
+
+@media screen and (max-width: 768px) {
+	.downlogo {
+		display: none;
+	}
+	#about div {
+		width: 33vw;
+	}	
+	.flexed_cities div {
+		font-size: 15px;
+	}
+	#sociallogos {
+		width: 18vw;
+	}
+}
+
+@media screen and (max-width: 468px) {
+	#about div {
+		font-size: 12px;
+	}
+	#city-section {
+		display: none;
+	}
+	#logos img {
+		width: 80px;
+		height: 100%;
+	}
+	#logos p {
+		font-size: 12px;
+	}
+	#sociallogos {
+		width: 20vw;
+	}
+}
